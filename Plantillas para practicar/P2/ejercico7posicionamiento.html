@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+       
+ header{
+     border: 3px solid gray;
+    
+ }
+
+.aside1{
+background-color: chartreuse;
+flex :  1 1 20% ; 
+order:1
+}
+.aside2{background-color: gold;
+    flex :  1 1 20% ;  
+    order:3
+      }
+main{background-color: blueviolet;
+height: 20vh;
+flex:  3 1 60% ; 
+  order:2
+}
+.principal{
+    border: 3px solid darkred;
+    display: flex;
+     flex-wrap: wrap;
+      
+     }
+ footer{border:3px solid saddlebrown}
+
+
+
+    </style>
+</head>
+<body>
+    
+        <div class="container"> 
+                <header>
+                    Cabecera
+                    </header>
+                    <div class="principal">
+                        <aside class="aside1">
+                            <p> ASIDE 1</p>
+                        </aside>
+                        <main>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore adipisci deserunt numquam iste, obcaecati ipsa dolor. Exercitationem optio dolorem asperiores, eligendi, sequi reprehenderit fugit harum explicabo quo natus officia numquam.</p>
+                        </main>
+                        <aside class="aside2">
+                            <p> ASide2</p>
+                        </aside>
+                    </div>
+            
+                    <footer>
+                        <p> Pie de página</p>
+                    </footer>
+
+
+</div>
+</body>
+</html>

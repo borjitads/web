@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: aquamarine
+        }
+    header{
+background-color: brown;
+ 
+    }
+    header nav{
+        text-align: center
+    }
+    header h1{
+color: white;
+float: right
+    }
+  
+    nav ul{
+     
+        display:  inline-flex;  
+    }
+    nav ul li{
+        list-style-type: none;
+         padding: 10px ;
+         
+    }
+    nav ul li a{
+         
+        background-color: red;
+text-decoration: none;
+color:white;
+padding: 2px
+    }
+    .galeria{
+        display: flex;
+        flex-direction: column
+    }
+    main h1{
+        color: gold;
+         
+        }
+        .contenedorImagen2{
+            position: absolute;
+            right: 600px;
+        }
+        .contenedorImagen4{
+            position: absolute;
+            bottom: -225px;
+            right: 600px;
+        }
+       
+        .cosa{
+position: absolute;
+top:150px;
+background-color: white;
+width: 300px;
+right: 100px;
+ padding-bottom: 50px;
+ padding-left:7px  
+        }
+        .precio{
+            position: absolute;
+            background-color: white;
+            width: 300px;
+            top:450px;
+            right: 100px;
+            padding-bottom: 50px;
+ padding-left:7px 
+        }
+ .direccion{
+    position: absolute;
+            background-color: white;
+            width: 300px;
+            top:610px;
+            right: 100px;
+            padding-bottom: 50px;
+ padding-left:7px 
+ }
+ .login-form h3{
+color: red;
+text-align: right
+ }
+.cost{
+     
+    text-align: center;
+    font-size: 30px
+}
+ .galeria h3{color: gold}
+.precio a{ 
+    text-decoration: none;
+     color: white;
+background-color: red;
+padding-right: 10px
+}
+
+    </style>
+</head>
+<body>
+        <div class="container">
+                <header>
+                    <div class="logo">
+                    <img src="/Users/Alumno/Desktop/imagenes/vigozoo.jpg">
+                    <h1>A Madroa</h1>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="/">Inicio</a></li>
+                            <li><a href="/features">Instalaciones</a></li>
+                            <li><a href="/pricing">Entradas</a></li>
+                            <li><a href="/support">Programas</a></li>
+                            <li class="nav-right">
+                                <a href="/about">Contacto</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+        
+                <div class="contenedorMainAside">
+                    <main>
+                        <h1>Nuestros maravillosos animales</h1>
+                        <p>Cientos de especies de todo el mundo para hacer las delicias
+                            de los más pequeños
+                        </p>
+        
+                        <div class="galeria">
+                    
+                            <div class="contenedorImagen1">
+                                <img src="/Users/Alumno/Desktop/imagenes/bear.jpg" width="300px" alt="oso">
+                                <h3>Oso pelayo</h3>
+                                <p> Oso mítico llegado desde la lejana China</p>
+                            </div>
+                            <div class="contenedorImagen2">
+                                <img src="/Users/Alumno/Desktop/imagenes/owl.jpg"width="300px" alt="búho">
+                                <h3>Búho peregrino</h3>
+                                <p> El búho más volador de su especie</p>
+                            </div>
+                            <div class="contenedorImagen3">
+                                <img src="/Users/Alumno/Desktop/imagenes/monkey.jpg"width="300px" alt="mono">
+                                <h3> Mono Osorio</h3>
+                                <p> El más simpático de la selva</p>
+                            </div>
+                            <div class="contenedorImagen4">
+                                <img src="/Users/Alumno/Desktop/imagenes/swan.jpg"width="300px" alt="cisne">
+                                <h3> Cisne de cuento</h3>
+                                <p>El Cisne de Walt Disney</p>
+                            </div>
+                        </div>
+                    </main>
+                    <aside>
+                        <div class="cosa">
+                            <form class="login-form">
+                                <h3>Login</h3>
+                                <p>
+                                 <p> <label for="username">Username</label></p>
+                                 <p> <input id="username" type="text"
+                                    name="username"/></p>
+                                </p>
+                                <p>
+                               <p>   <label for="password">Password</label></p>
+                                <p>  <input id="password" type="password"
+                                    name="password"/></p>
+                                </p>
+                                <button type="submit">Login</button>
+                        </div>
+                        <div class="precio">
+                            <p>Starting at</p>
+                            <div class="cost">
+                    
+                    <span class="cost-dollars">20</span>
+                    <span class="cost-cents">.00</span>
+                    <span class="cost-currency">€</span>
+                            </div>
+                  <a class="cta-button" href="#">
+                 Sign up 
+                  </a>
+                        </div>
+                        <div class="tile direccion">
+                            <address>
+                                <p><i>Dirección : A Madroa</i></p>
+                                 <p><i>Teléfono : 9861111111</i></p>
+                                <p><i>Correo: amadroa@zoovigo.io</i></p> 
+                                <p><i> También organizamos visitas para grupos de 20 personas como máximo y 
+                                    también puedes venir a celebrar tu cumpleaños con nosotros
+                                </i></p>
+                             </address>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+</body>
+</html>
